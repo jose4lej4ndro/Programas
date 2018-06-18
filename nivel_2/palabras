@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int v1;
+    char qlq[10]
+    cout<<"porfavor ingrese la palabra a mostrar"<<endl;
+    cin>>qlq[10];
+    cout<<qlq[10]<<endl;
+    return 0;
+}
