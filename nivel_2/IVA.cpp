@@ -6,17 +6,25 @@ using namespace std;
 int IVA1 (int x , int y , int g);
 int main()
 {
-  int sum;
+
+  int sum = IVA;
   int precio1;
   int res;
   int qlq;
   int precio,IVA,n1;
   cout << "Por favor ingrese cantidad,porcentaje y primer numero de la cantidad" << endl ;
   cin  >> precio >> IVA >> n1 ;
-  precio1 = (n1*IVA);
+  precio1 = (n1*IV* porcentaje)/100 ;
+  papichavez = resultado + monto ;
+  cout << "El resultado del Monto mas el IVA da un total de:  " << endl << papichavez << endl ;
+
+  return 0;
 
 
-  cout << "El IVA es de: " << precio1 << endl;
+}
+  qlq = precio1 + IVA ;
+
+  cout << "El IVA es de: " << qlq << endl;
   return 0;
 }
 //Desarrollo
