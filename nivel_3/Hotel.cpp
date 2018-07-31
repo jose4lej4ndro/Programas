@@ -112,7 +112,7 @@ float hotel1(float pre , float h3  )
             cout << " lo sentimos pero no tiene suficiente dinero para el servicio del restaurant" << endl ;
           }
           //
-          if(pre>=8001 && pre<=15000 )
+          if(pre>=8001  )
           {
             cout << "Excelente su presupuesto es del Penhouse del hotel" << endl ;
             cout << "Eso quiere decir que tendra  los mejores sevicios los cuales son: " << endl;
