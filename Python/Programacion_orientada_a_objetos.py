@@ -1,27 +1,22 @@
-# Se declara la clase(Es como una plantilla)
 class Laptop:
-	  
-    def __init__(self):
-        self.case = 'Negra' # Atributos
-  	    self.contiene_graficadedicada = True
-	    self.tiene_discoduro = True
-	    self.ram = True 
+	def __init__ (self, case, contiene_graficadedicada, tiene_discoduro, ram ):
+		self.case = case
+		self.contiene_graficadedicada = contiene_graficadedicada
+		self.tiene_discoduro = tiene_discoduro
+		self.ram = ram 
 
- 	def cargarOS(self):
- 		print("La laptop esta encendiendo")                                                  
+	def cargarOS(self):
+		print("La laptop esta encendiendo")
 
-	def ejecutarjuegos(self):
+	def ejecutarprogramas(self):
 		if self.es_valido_para_jugar():
-			print("La laptop ha ejecutado perfectamente Red Dead Redemption 2") 
-		else: 
+			print("La laptop esta ejecutando RDR 2")
+		else:
 			print("La laptop no cumple los requisitos minimos para ejecutar RDR2")
-			print("Se ha apagado ")
-		
+			print("Se ha apagado")
 	def es_valido_para_jugar(self):
-		return self.contiene_graficadedicada	
+		return self.contiene_graficadedicada
 
-# Este es el objeto
-Laptop_Vit = Laptop()	
-Laptop_Vit.cargarOS()
-Laptop_Vit.contiene_graficadedicada = False
-Laptop_Vit.ejecutarjuegos()
+Laptop_gamer = Laptop("Azul", True, True, True)
+Laptop_gamer.cargarOS()
+Laptop_gamer.ejecutarprogramas()
